@@ -276,4 +276,142 @@ body {
 .mouse a {
   outline: none;
 }
+
+#services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 561px;
+  background-color: #393F47;
+}
+
+.services-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1110px;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+}
+
+.eu-transfer {
+  max-width: 445px;
+}
+
+.eu-transfer a {
+  outline: none;
+}
+
+.eu-transfer h1 {
+  margin-top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.eu-transfer p {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.eu-transfer hr {
+  width: 90px;
+  height: 6px;
+  border-color: #C8A35F;
+  background-color: #C8A35F;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #C8A35F;
+  padding: 18px 48px;
+}
+
+.center-container {
+  background-color: #2F343A;
+  margin-left: -97px;
+  width: 410px;
+  z-index: 0;
+}
+
+.car {
+  position: relative;
+  margin-left: 130px;
+}
+
+.prev a, .next a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C8A35F;
+}
+
+.prev-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 182px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prev-next a {
+  outline: none;
+}
+
+.prev {
+  margin-top: 240px;
+}
+
+.prev img {
+  padding-right: 30px;
+}
+
+.next img {
+  padding-left: 35px;
+}
 /*# sourceMappingURL=style.css.map */
