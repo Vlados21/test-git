@@ -584,4 +584,81 @@ body {
   float: left;
   margin: auto;
 }
+
+#map {
+  height: 450px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #C8A35F;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1110px;
+  min-height: 161px;
+}
+
+.footer-wrapper a {
+  outline: none;
+  display: block;
+}
+
+.phones a {
+  margin-top: 13px;
+  text-decoration: none;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #F2F2F2;
+}
+
+.phones a:first-child {
+  margin-top: 0;
+}
+
+.dest a {
+  margin-top: 13px;
+  text-decoration: none;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2F343A;
+}
+
+.dest p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #F2F2F2;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=style.css.map */
